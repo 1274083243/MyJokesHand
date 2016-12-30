@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/bottom_bar_gray" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    >
+    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+        android:id="@+id/home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+        android:id="@+id/jokes"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+        android:id="@+id/funny_pic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+        android:id="@+id/my_circle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+        android:id="@+id/personal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

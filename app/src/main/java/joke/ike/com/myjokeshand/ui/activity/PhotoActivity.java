@@ -1,9 +1,9 @@
-package joke.ike.com.myjokeshand;
+package joke.ike.com.myjokeshand.ui.activity;
 
 import android.app.Activity;
 
 /**
- * Created by Administrator on 2016/12/28.
+ * Created by ike on 2016/12/28.
  */
 
 public class PhotoActivity extends Activity{

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:padding="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_err"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@mipmap/ic_error"
+        />
+
+    <TextView
+        android:id="@+id/tv_err_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_60"
+        android:text="数据加载失败，点击重试"
+        android:textSize="16sp"
+        />
+</LinearLayout>
