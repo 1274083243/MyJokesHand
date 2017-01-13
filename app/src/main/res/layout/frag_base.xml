@@ -28,7 +28,7 @@
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-        <joke.ike.com.myjokeshand.widget.ErrorOrEmptyOrLoadingLayout
+        <joke.ike.com.myjokeshand.widget.homewidget.ErrorOrEmptyOrLoadingLayout
             android:id="@+id/err_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

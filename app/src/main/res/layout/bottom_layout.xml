@@ -19,31 +19,31 @@
     android:layout_height="40dp"
     android:orientation="horizontal"
     >
-    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
         android:id="@+id/home"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
         android:id="@+id/jokes"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
         android:id="@+id/funny_pic"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
         android:id="@+id/my_circle"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <joke.ike.com.myjokeshand.widget.AppBottomLayoutItem
+    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
         android:id="@+id/personal"
         android:layout_width="0dp"
         android:layout_height="match_parent"

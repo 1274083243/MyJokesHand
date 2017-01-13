@@ -1,14 +1,11 @@
-package joke.ike.com.myjokeshand.widget;
+package joke.ike.com.myjokeshand.widget.homewidget;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
-import butterknife.Bind;
 import joke.ike.com.myjokeshand.R;
 
 /**
@@ -113,7 +110,6 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
      */
     public void setViewpager(ViewPager vp){
         this.mViewPager=vp;
-
     }
 
 

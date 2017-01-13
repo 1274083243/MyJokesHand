@@ -7,14 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import butterknife.ButterKnife;
 import joke.ike.com.myjokeshand.R;
 import joke.ike.com.myjokeshand.ui.base.baseMvp.BasePresenter;
 import joke.ike.com.myjokeshand.ui.base.baseMvp.BaseView;
-import joke.ike.com.myjokeshand.widget.ErrorOrEmptyOrLoadingLayout;
+import joke.ike.com.myjokeshand.widget.homewidget.ErrorOrEmptyOrLoadingLayout;
 
 /**
  * Created by ike on 2016/12/29.

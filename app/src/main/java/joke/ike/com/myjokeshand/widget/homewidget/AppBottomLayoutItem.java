@@ -1,4 +1,4 @@
-package joke.ike.com.myjokeshand.widget;
+package joke.ike.com.myjokeshand.widget.homewidget;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -2,8 +2,6 @@ package joke.ike.com.myjokeshand.ui.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +16,8 @@ import joke.ike.com.myjokeshand.ui.fragment.HomeFragment;
 import joke.ike.com.myjokeshand.ui.fragment.JokesFragment;
 import joke.ike.com.myjokeshand.ui.fragment.MyCircleFragment;
 import joke.ike.com.myjokeshand.ui.fragment.PersonnalFragment;
-import joke.ike.com.myjokeshand.widget.AppBottomLayout;
-import joke.ike.com.myjokeshand.widget.NoScrollViewPager;
+import joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayout;
+import joke.ike.com.myjokeshand.widget.homewidget.NoScrollViewPager;
 
 public class MainActivity extends FragmentActivity {
     @Bind(R.id.main_vp)
