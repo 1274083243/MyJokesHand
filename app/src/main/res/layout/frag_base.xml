@@ -5,10 +5,10 @@
     android:orientation="vertical">
 
     <RelativeLayout
+        android:id="@+id/title_container"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/title_bar_red">
-
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
@@ -30,6 +30,7 @@
             android:layout_height="match_parent" />
         <joke.ike.com.myjokeshand.widget.homewidget.ErrorOrEmptyOrLoadingLayout
             android:id="@+id/err_layout"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </RelativeLayout>

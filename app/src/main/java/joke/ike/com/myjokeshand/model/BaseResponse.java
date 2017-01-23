@@ -7,7 +7,7 @@ package joke.ike.com.myjokeshand.model;
 **/
 
 public class BaseResponse {
-    public String msg;
-    public int code;
-    public String responseInfo;
+    public String reason;
+    public int error_code;
+    public String result;
 }

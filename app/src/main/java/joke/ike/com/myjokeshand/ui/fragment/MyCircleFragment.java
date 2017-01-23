@@ -16,6 +16,16 @@ import joke.ike.com.myjokeshand.R;
 
 public class MyCircleFragment extends BaseFragment {
     @Override
+    public void initlistener() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
     public View getViewLayout() {
         tv_title.setText("圈子");
         return View.inflate(getContext(), R.layout.frag_my_circle,null);

@@ -16,6 +16,16 @@ import joke.ike.com.myjokeshand.R;
 
 public class FunnyPicFragment extends BaseFragment {
     @Override
+    public void initlistener() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
     public View getViewLayout() {
         tv_title.setText("趣图");
         return View.inflate(getContext(), R.layout.frag_funny_pic,null);

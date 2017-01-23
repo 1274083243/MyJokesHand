@@ -16,6 +16,16 @@ import joke.ike.com.myjokeshand.R;
 
 public class PersonnalFragment extends BaseFragment {
     @Override
+    public void initlistener() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
     public View getViewLayout() {
         tv_title.setText("个人");
         return View.inflate(getContext(), R.layout.frag_persoal,null);

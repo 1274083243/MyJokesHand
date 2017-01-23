@@ -9,4 +9,5 @@ public interface BaseView {
     void showLoadingView();
     void showErrorView();
     void showNetErrView();
+    void showDataView();
 }

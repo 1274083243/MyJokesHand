@@ -12,15 +12,15 @@ import joke.ike.com.myjokeshand.R;
  * Created by ike on 2016/12/29.
  * app下方的导航栏控件
  */
-
 public class AppBottomLayout extends LinearLayout implements View.OnClickListener {
     private AppBottomLayoutItem home;
     private AppBottomLayoutItem jokes;
     private AppBottomLayoutItem funnyPic;
     private AppBottomLayoutItem myCircle;
-    private AppBottomLayoutItem personal;
+   // private AppBottomLayoutItem personal;
     private View rootView;
     private ViewPager mViewPager;
+    private String[] tabName;
     public AppBottomLayout(Context context) {
         this(context, null);
     }
@@ -36,24 +36,15 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
         jokes= (AppBottomLayoutItem) rootView.findViewById(R.id.jokes);
         funnyPic= (AppBottomLayoutItem) rootView.findViewById(R.id.funny_pic);
         myCircle= (AppBottomLayoutItem) rootView.findViewById(R.id.my_circle);
-        personal= (AppBottomLayoutItem) rootView.findViewById(R.id.personal);
+        //personal= (AppBottomLayoutItem) rootView.findViewById(R.id.personal);
 
-        home.setText("首页");
-        home.checked(0);
-        jokes.setText("段子");
-        jokes.unChecked(1);
-        funnyPic.setText("趣图");
-        funnyPic.unChecked(2);
-        myCircle.setText("圈子");
-        myCircle.unChecked(3);
-        personal.setText("个人");
-        personal.unChecked(4);
+
 
         jokes.setOnClickListener(this);
         funnyPic.setOnClickListener(this);
         home.setOnClickListener(this);
         myCircle.setOnClickListener(this);
-        personal.setOnClickListener(this);
+      //  personal.setOnClickListener(this);
 
     }
 
@@ -66,7 +57,7 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
                 jokes.unChecked(1);
                 funnyPic.unChecked(2);
                 myCircle.unChecked(3);
-                personal.unChecked(4);
+              //  personal.unChecked(4);
                 break;
             case R.id.jokes:
                 mViewPager.setCurrentItem(1,false);
@@ -74,7 +65,7 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
                 jokes.checked(1);
                 funnyPic.unChecked(2);
                 myCircle.unChecked(3);
-                personal.unChecked(4);
+              //  personal.unChecked(4);
                 break;
             case R.id.funny_pic:
                 mViewPager.setCurrentItem(2,false);
@@ -82,7 +73,7 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
                 jokes.unChecked(1);
                 funnyPic.checked(2);
                 myCircle.unChecked(3);
-                personal.unChecked(4);
+               // personal.unChecked(4);
                 break;
             case R.id.my_circle:
                 mViewPager.setCurrentItem(3,false);
@@ -90,16 +81,16 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
                 jokes.unChecked(1);
                 funnyPic.unChecked(2);
                 myCircle.checked(3);
-                personal.unChecked(4);
+               // personal.unChecked(4);
                 break;
-            case R.id.personal:
-                mViewPager.setCurrentItem(4,false);
-                home.unChecked(0);
-                jokes.unChecked(1);
-                funnyPic.unChecked(2);
-                myCircle.unChecked(3);
-                personal.checked(4);
-                break;
+//            case R.id.personal:
+//                mViewPager.setCurrentItem(4,false);
+//                home.unChecked(0);
+//                jokes.unChecked(1);
+//                funnyPic.unChecked(2);
+//                myCircle.unChecked(3);
+//               // personal.checked(4);
+//                break;
 
         }
     }
@@ -111,6 +102,18 @@ public class AppBottomLayout extends LinearLayout implements View.OnClickListene
     public void setViewpager(ViewPager vp){
         this.mViewPager=vp;
     }
-
+    public void setTabName(String[] tabName){
+        this.tabName=tabName;
+        home.setText(tabName[0]);
+        home.checked(0);
+        jokes.setText(tabName[1]);
+        jokes.unChecked(1);
+        funnyPic.setText(tabName[2]);
+        funnyPic.unChecked(2);
+        myCircle.setText(tabName[3]);
+        myCircle.unChecked(3);
+//        personal.setText("个人");
+//        personal.unChecked(4);
+    }
 
 }

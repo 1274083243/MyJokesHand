@@ -43,11 +43,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem
-        android:id="@+id/personal"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+    <!--<joke.ike.com.myjokeshand.widget.homewidget.AppBottomLayoutItem-->
+        <!--android:id="@+id/personal"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1" />-->
 </LinearLayout>
     </RelativeLayout>
 </LinearLayout>
